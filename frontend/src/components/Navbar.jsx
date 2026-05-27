@@ -84,6 +84,9 @@ const Navbar = () => {
         <div className="h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center">
             <img className="w-[120px]" src={assets.logo} alt="Recruiter Logo" />
+            <span className="text-xl font-bold tracking-tight text-gray-800">
+              BrandName
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
